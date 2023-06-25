@@ -4,6 +4,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "dbt-coverage --version" dbt-coverage --version
+check "dbt-coverage --help" dbt-coverage --help
 
 reportResults
