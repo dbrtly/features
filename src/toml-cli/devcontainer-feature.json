@@ -1,6 +1,6 @@
 {
     "id": "toml-cli",
-    "version": "0.2.46",
+    "version": "1.0.0",
     "name": "toml-cli (via Github Releases)",
     "documentationURL": "http://github.com/devcontainers-contrib/features/tree/main/src/toml-cli",
     "description": "toml-cli is a simple CLI for editing and querying TOML files.",
