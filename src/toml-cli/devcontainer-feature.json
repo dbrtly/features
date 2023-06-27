@@ -1,0 +1,20 @@
+{
+    "id": "toml-cli",
+    "version": "3.7.0",
+    "name": "toml-cli (via Github Releases)",
+    "documentationURL": "http://github.com/devcontainers-contrib/features/tree/main/src/toml-cli",
+    "description": "toml-cli is a simple CLI for editing and querying TOML files.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+}
