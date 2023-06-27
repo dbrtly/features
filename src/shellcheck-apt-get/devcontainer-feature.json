@@ -1,0 +1,11 @@
+{
+    "id": "shellcheck-apt-get",
+    "version": "1.0.15",
+    "name": "shellcheck (via apt-get)",
+    "documentationURL": "http://github.com/devcontainers-contrib/features/tree/main/src/shellcheck-apt-get",
+    "description": "ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts.",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages"
+    ]
+}
