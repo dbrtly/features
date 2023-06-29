@@ -1,5 +1,5 @@
 name: "Features - Test"
-on:
+on: # install
   workflow_dispatch:
     inputs:
       on_changes_only:
