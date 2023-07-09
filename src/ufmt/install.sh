@@ -15,8 +15,8 @@ ensure_nanolayer nanolayer_location "v0.4.45"
 $nanolayer_location \
     install \
     devcontainer-feature \
-    "ghcr.io/devcontainers-contrib/features/npm-package:1.0.3" \
-    --option package='cdktf-cli' --option version="$VERSION"
+    "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.6" \
+    --option package='ufmt' --option version="$VERSION"
     
 
 

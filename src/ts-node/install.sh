@@ -16,7 +16,7 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/npm-package:1.0.3" \
-    --option package='cdktf-cli' --option version="$VERSION"
+    --option package='ts-node' --option version="$VERSION"
     
 
 
