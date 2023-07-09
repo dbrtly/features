@@ -15,10 +15,9 @@ ensure_nanolayer nanolayer_location "v0.4.45"
 $nanolayer_location \
     install \
     devcontainer-feature \
-    "ghcr.io/devcontainers-contrib/features/npm-package:1.0.3" \
-    --option package='cdktf-cli' --option version="$VERSION"
+    "ghcr.io/devcontainers-contrib/features/gh-release:1.0.18" \
+    --option repo='mvdan/sh' --option binaryNames='shfmt' --option version="$VERSION"
     
 
 
 echo 'Done!'
-
