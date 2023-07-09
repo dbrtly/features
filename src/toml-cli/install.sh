@@ -16,7 +16,7 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/gh-release:1.0.18" \
-    --option repo='gnprice/toml-cli' --option binaryNames='toml-cli' --option version="$VERSION"
+    --option repo='gnprice/toml-cli' --option binaryNames='toml' --option version="$VERSION"
     
 
 
